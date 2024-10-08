@@ -6,7 +6,7 @@ window.onload = function() {
             currentRotation = 0
             circle.style.transform = `rotate(${currentRotation}deg)`;
         } else {
-            currentRotation += step/100
+            currentRotation += step
             circle.style.transform = `rotate(${currentRotation}deg)`;
         }
     } 
